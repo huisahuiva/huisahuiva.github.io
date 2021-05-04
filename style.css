@@ -163,6 +163,6 @@ li {
     width: 96%;
     position: relative;
     left: 2%;
-    border: 1px inset #fff;
+    border:0.5px inset #fff;
 
 }
