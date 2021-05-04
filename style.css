@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "KoPubWorld돋움체", "G마켓 산스 TTF";
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 a {
@@ -45,18 +45,22 @@ li {
     height: 50px;
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
+    clear: both;
 }
 
 #titlelogo {
     margin: 5px 0 0 40px;
+    float: left;
 }
 
+#main > li > a {
+    display: block;
+}
 
 #main {
-    width: 98%;
-    z-index: 100;
-    position: absolute;
     font-size: 17px;
+    float: right;
+    margin-right: 20px;
 }
 
 #main > li {
@@ -73,6 +77,10 @@ li {
     visibility: hidden;
     opacity: 0;
     transition: 250ms ease-in-out;
+}
+
+.sub > li > a {
+    display: block;
 }
 
 .sub > li > a:after {
@@ -119,12 +127,12 @@ li {
 
 #text > h2 {
     font-size: 30px;
-    font-family: "G마켓 산스 TTF light";
+    font-weight: 100;
+    font-family: 'Nanum Gothic', sans-serif;
     margin-bottom: 15px;
 }
 
 #text > p {
-    font-family: "KoPubWorld돋움체 light";
     font-size: 16px;
 }
 
@@ -155,6 +163,6 @@ li {
     width: 96%;
     position: relative;
     left: 2%;
-    border: 1px inst #fff;
+    border: 1px inset #fff;
 
 }
